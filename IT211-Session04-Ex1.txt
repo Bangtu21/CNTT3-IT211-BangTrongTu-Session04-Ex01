@@ -1,0 +1,5 @@
+IT211-Session04-Ex1
+Phần 1:
+	- Client nhận về chuỗi Movie@3a1b2c3d thay vì JSON do đoạn return movies.toString(); vì movies là một List<Movie> nên khi gọi toString() trên một
+List thì Java sẽ gọi trực tiếp toString() của từng object Movie nhưng class Movie không override phương thức toString() do đó Java sử dụng toString mặc định
+của class Object có dạng tênclass@mãhash
